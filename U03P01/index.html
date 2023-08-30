@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html{
+            background-color: rgb(245, 245, 245);
+        }
+
+        *{
+            font-family: sans-serif;
+        }
+
+        h1{
+            size: 24px;
+            color: #242424;
+            width: 900;
+        }
+
+        h2{
+            size: 20px;
+            color: #606060;
+            width: 800;
+        }
+
+        p{
+            size: 14px;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+
+        li{
+            /*14. Agregar 10 pixeles de espaciado interno a cada ítem de la lista.
+             si con esto se refiere a line-height ya lo hice y queda re mal*/
+            font-family: monospace;
+            font-size: 18px;
+            list-style-type: none;
+            line-height: 35px;
+        }
+        
+        li:hover{
+            background-color: rgba(0, 0, 0, 0.1);
+        }
+
+        ul{
+
+            margin-left: 100px;
+            padding: 20px;
+            border: 2px;
+            border-style: solid;
+            border-color: blue;
+            max-width: 40%;
+        }
+
+        a{
+            width: bold;
+        }
+
+        ul > li > a{
+            color: orange;
+            font-style: underline;
+        }
+
+        .colorVerde{
+            color: green;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <h1>Patagonia argentina</h1>
+    <section>
+        <h2>Introducción</h2>
+        <p>La Patagonia argentina es una de las cuatro regiones para el
+            desarrollo económico y social de la República Argentina.</p>
+        <p>Está formada por:</p>
+        <ul>
+            <li>Provincia de <a href="#">Chubut</a></li>
+            <li class="colorVerde">Provincia de <a class="colorVerde" href="#">Neuquén</a></li>
+            <li>Una parte de la Provincia de <a href="#">La Pampa</a></li>
+            <li>Una parte de la Provincia de <a href="#">Buenos Aires</a>
+            </li>
+            <li>El extremo sur de la Provincia de <a href="#">Mendoza</a></li>
+            <li class="colorVerde">Provincia de <a class="colorVerde" href="#">Río Negro</a></li>
+            <li>Provincia de <a href="#">Santa Cruz</a></li>
+            <li>Provincia de <a href="#">Tierra del Fuego</a></li>
+            <li>Antártida e Islas del Atlántico Sur</li>
+        </ul>
+        <p>Para mas información ingresar en <a href="#">la web oficial de la
+                Patagonia</a>.</p>
+    </section>
+</body>
+
+</html>
